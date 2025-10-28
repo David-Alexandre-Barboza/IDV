@@ -27,7 +27,7 @@ body{
 
 .container{
     /* classe reutilizavel */
-    max-width: 1440px;
+    max-width: 1350px;
     padding: 0 5%;
     margin: 0 auto;
 }
@@ -115,9 +115,23 @@ font-family: "Caprasimo", serif;
         font-family: "Caprasimo", serif;
         color: black;
         height: 33px;
-        width: 1920px;
         font-size: 15px;
         text-align: center;
         background-color: white;
     }
 
+@media screen and (max-width: 1020px) {
+    .container{
+        flex-direction: column;
+    }
+
+    
+}
+
+@media screen and (max-width: 1020px) {
+    .footer{
+        flex-direction: column;
+    }
+
+    
+}
