@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
 
+html{
+height: 100%;
+    {
 *{
     margin: 0;
     padding: 0;
@@ -135,3 +138,4 @@ font-family: "Caprasimo", serif;
 
     
 }
+
